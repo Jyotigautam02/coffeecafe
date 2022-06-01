@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive coffee website design tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- bootstrap cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> Coffee Cafe <i class="fas fa-mug-hot"></i> </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="index.html">about</a>
+        <a href="index.html">menu</a>
+        <a href="index.html">gallery</a>
+        <a href="index.html">Reviwes</a>
+        <a href="#book">book</a>
+    </nav>
+
+    <a href="#" class="btn">takeaway coffee</a>
+
+</header>
+
+<!-- header section ends -->
+<!-- contact section starts  -->
+
+<section class="book" id="book">
+
+    <div class="heading">
+       <img src="image/heading-img.png" alt="">
+       <h3>Book A Table</h3>
+    </div>
+ 
+    <div class="row">
+ 
+       <div class="image">
+          <img src="image/contact-img.svg" alt="">
+       </div>
+ 
+       <form action="" method="post">
+          <h3>book a table</h3>
+          <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+          <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+          <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+          <input type="submit" name="send" value="submit" class="btn">
+       </form>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- contact section ends -->
+ <!-- footer section starts  -->
+
+<section class="footer container">
+
+ 
+    <div class="share">
+       <a href="#" class="fab fa-facebook-f"></a>
+       <a href="#" class="fab fa-linkedin"></a>
+       <a href="#" class="fab fa-twitter"></a>
+       <a href="#" class="fab fa-github"></a>
+    </div>
+    <p class="credit"> created by <span>Jyoti Gautam</span> | with code first girls! </p>
+    
+ </section>
+ 
+ <!-- footer section ends -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <!-- custom js file link  -->
+<script src="js/script.js"></script>
+ 
+ </body>
+</html>
